@@ -6,7 +6,7 @@ COPY --chown=node:node . .
 
 RUN npm ci
 
-ENV=DEBUG=partb:*
+ENV DEBUG=partb:*
 
 USER node
 

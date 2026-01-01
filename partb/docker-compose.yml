@@ -1,0 +1,6 @@
+services:
+  app:
+    image: express-erver
+    build: .
+    ports: 
+      - 3000:3000
