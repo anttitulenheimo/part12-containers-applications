@@ -1,0 +1,128 @@
+Script started on 2026-01-02 13:12:00+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="138" LINES="70"]
+[?2004h]0;antti_tulenheimo@Pelitietokone: ~[01;32mantti_tulenheimo@Pelitietokone[00m:[01;34m~[00m$ docker c ont[K[K[K[K[Kps[K[Kls -[K[K[K[Kcop[Kntainer ls --all
+[?2004lCONTAINER ID   IMAGE                                   COMMAND                  CREATED         STATUS                      PORTS                                         NAMES
+f9a579e08189   nginx                                   "/docker-entrypoint.…"   6 minutes ago   Up 6 minutes                0.0.0.0:8080->80/tcp, [::]:8080->80/tcp       cranky_jang
+6d0f964bf745   initialized-mongo                       "docker-entrypoint.s…"   20 hours ago    Exited (255) 3 hours ago    0.0.0.0:3456->27017/tcp                       todo-backend-mongo-1
+ed3f9d4b5e59   express-erver                           "docker-entrypoint.s…"   23 hours ago    Exited (137) 22 hours ago                                                 partb-app-1
+3ce4586192e1   node-backend                            "docker-entrypoint.s…"   25 hours ago    Exited (137) 25 hours ago                                                 lucid_mccarthy
+ddbbd2507b83   hello-world                             "/hello"                 37 hours ago    Exited (0) 37 hours ago                                                   serene_turing
+b6bd0c873f02   express-server                          "docker-entrypoint.s…"   44 hours ago    Exited (137) 44 hours ago                                                 heuristic_babbage
+8a2c5567d8f4   1e0f740f01a0                            "docker-entrypoint.s…"   44 hours ago    Exited (137) 44 hours ago                                                 loving_wing
+0d5f23a8db09   fs-hello-world                          "docker-entrypoint.s…"   45 hours ago    Exited (0) 45 hours ago                                                   exciting_heisenberg
+1ff15dd544dd   fs-hello-world                          "docker-entrypoint.s…"   45 hours ago    Exited (0) 45 hours ago                                                   fervent_shockley
+2edf8fcbf03e   node:20                                 "docker-entrypoint.s…"   45 hours ago    Exited (0) 45 hours ago                                                   nostalgic_burnell
+ac14ccda717e   node:20                                 "docker-entrypoint.s…"   46 hours ago    Exited (0) 45 hours ago                                                   hello-node
+4da2f3e947a4   hello-world                             "/hello"                 2 days ago      Exited (0) 2 days ago                                                     great_lalande
+a05ed61e29e3   ubuntu                                  "bash"                   2 days ago      Exited (129) 2 days ago                                                   fervent_morse
+14c33ec08f79   hello-world                             "/hello"                 2 days ago      Exited (0) 2 days ago                                                     laughing_hermann
+66852964b747   project-client                          "/tini -- docker-ent…"   2 months ago    Up 13 minutes               0.0.0.0:5173->5173/tcp, [::]:5173->5173/tcp   project-client-1
+15b90dbb2b46   project-e2e-tests                       "/bin/true"              2 months ago    Exited (0) 2 months ago                                                   project-e2e-tests-1
+fb69273c7b52   my-frontend                             "/docker-entrypoint.…"   2 months ago    Exited (0) 2 months ago                                                   vigilant_proskuriakova
+a2b7e1f806c0   a2d2a1f0e7c9                            "/docker-entrypoint.…"   2 months ago    Exited (0) 2 months ago                                                   magical_haibt
+0d7891d36cfc   65df0f87e53b                            "/docker-entrypoint.…"   2 months ago    Exited (0) 2 months ago                                                   gracious_mestorf
+28deb82679d3   8d5c76f0b8fc                            "/docker-entrypoint.…"   2 months ago    Exited (1) 2 months ago                                                   loving_booth
+cc21d9881f46   b20de78a57ef                            "/docker-entrypoint.…"   2 months ago    Exited (0) 2 months ago                                                   elastic_sammet
+13141f7302f1   project-server                          "/tini -- docker-ent…"   2 months ago    Up 13 minutes               0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp   project-server-1
+f0059a78e3a4   flyway/flyway:11.10                     "flyway -connectRetr…"   2 months ago    Exited (0) 2 months ago                                                   project-database-migrations-1
+6d50ddd59085   postgres:17.5                           "docker-entrypoint.s…"   2 months ago    Up 13 minutes               5432/tcp                                      project_postgresql_database
+a225ad873ba1   hello-world                             "/hello"                 2 months ago    Exited (0) 2 months ago                                                   project-hello-world-1
+00cb6126b5ad   walking-skeleton-client                 "/tini -- docker-ent…"   2 months ago    Exited (0) 2 months ago                                                   walking-skeleton-client-1
+2b509283dd8b   walking-skeleton-e2e-tests              "/bin/true"              3 months ago    Exited (0) 2 months ago                                                   walking-skeleton-e2e-tests-1
+4d62de760e8b   walking-skeleton-server                 "/tini -- docker-ent…"   3 months ago    Exited (143) 2 months ago                                                 walking-skeleton-server-1
+090ab66351ea   flyway/flyway:11.10                     "flyway -connectRetr…"   3 months ago    Exited (0) 2 months ago                                                   walking-skeleton-database-migrations-1
+1577cbc03431   postgres:17.5                           "docker-entrypoint.s…"   3 months ago    Exited (0) 2 months ago                                                   postgresql_database
+233bbe93d712   hello-world                             "/hello"                 3 months ago    Exited (0) 3 months ago                                                   walking-skeleton-hello-world-1
+3838c3134e91   hello-world                             "/hello"                 3 months ago    Exited (0) 3 months ago                                                   nostalgic_solomon
+50ea944e53f7   ghcr.io/niksi-aalto/programming-2:1.0   "/bin/sh -c 'echo Co…"   7 months ago    Exited (0) 7 months ago                                                   kind_mahavira
+[?2004h]0;antti_tulenheimo@Pelitietokone: ~[01;32mantti_tulenheimo@Pelitietokone[00m:[01;34m~[00m$ docker container ls --all |[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ker exec -it initialized-mongo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktodo-backend-mongo-1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcompose -f docker.compose[K[K[K[K[K[K[K[K_[K-compose.dev..[Kyml up -d
+[?2004lopen /home/antti_tulenheimo/docker-compose.dev.yml: no such file or directory
+[?2004h]0;antti_tulenheimo@Pelitietokone: ~[01;32mantti_tulenheimo@Pelitietokone[00m:[01;34m~[00m$ cd fyu[K[Kullstackopen/part12-containers-applications/todo-app/todo-backend/
+[?2004l[?2004h]0;antti_tulenheimo@Pelitietokone: ~/fullstackopen/part12-containers-applications/todo-app/todo-backend[01;32mantti_tulenheimo@Pelitietokone[00m:[01;34m~/fullstackopen/part12-containers-applications/todo-app/todo-backend[00m$ cd fullstackopen/part12-containers-applications/todo-app/todo-backend/[A]0;antti_tulenheimo@Pelitietokone: ~/fullstackopen/part12-containers-applications/todo-app/todo-backend[01;32mantti_tulenheimo@Pelitietokone[00m:[01;34m~/fullstackopen/part12-containers-applications/todo-app/todo-backend[00m$ docker compose -f docker-compose.dev.yml up -d[K
+[?2004l[1A[1B[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-mongo-1  Starting                                                                                          [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-mongo-1  Starting                                                                                          [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-mongo-1  Starting                                                                                          [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Container todo-backend-mongo-1  [32mStarted[0m                                                                                           [34m0.3s [0m
+[?25h[?2004h]0;antti_tulenheimo@Pelitietokone: ~/fullstackopen/part12-containers-applications/todo-app/todo-backend[01;32mantti_tulenheimo@Pelitietokone[00m:[01;34m~/fullstackopen/part12-containers-applications/todo-app/todo-backend[00m$ docker ps[K[K[K[K[K[K[K[K[Kdocker ps
+[?2004lCONTAINER ID   IMAGE               COMMAND                  CREATED          STATUS          PORTS                                           NAMES
+f9a579e08189   nginx               "/docker-entrypoint.…"   11 minutes ago   Up 11 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp         cranky_jang
+6d0f964bf745   initialized-mongo   "docker-entrypoint.s…"   20 hours ago     Up 17 seconds   0.0.0.0:3456->27017/tcp, [::]:3456->27017/tcp   todo-backend-mongo-1
+66852964b747   project-client      "/tini -- docker-ent…"   2 months ago     Up 18 minutes   0.0.0.0:5173->5173/tcp, [::]:5173->5173/tcp     project-client-1
+13141f7302f1   project-server      "/tini -- docker-ent…"   2 months ago     Up 18 minutes   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp     project-server-1
+6d50ddd59085   postgres:17.5       "docker-entrypoint.s…"   2 months ago     Up 18 minutes   5432/tcp                                        project_postgresql_database
+[?2004h]0;antti_tulenheimo@Pelitietokone: ~/fullstackopen/part12-containers-applications/todo-app/todo-backend[01;32mantti_tulenheimo@Pelitietokone[00m:[01;34m~/fullstackopen/part12-containers-applications/todo-app/todo-backend[00m$ docker c[Kexec -it do[K[Ktodo-backend-mongo-1  [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C  mongosh
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6957a9e36028abc29b8de665
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.5.10[0m
+Using MongoDB:		undefined
+[1m[33mUsing Mongosh[0m:		2.5.10
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+[1G[0J [1G[?2004h[1G[0Jtest> [7Gshow dbs
+Uncaught [1m[31mMongoServerError[0m[1m[31m[Unauthorized][0m: Command listDatabases requires authentication
+[1G[0Jtest> [7Guse admin
+switched to db admin
+[1G[0Jadmin> [8Gshow dbs
+Uncaught [1m[31mMongoServerError[0m[1m[31m[Unauthorized][0m: Command listDatabases requires authentication
+[1G[0Jadmin> [8Gdb.auth()[1G[0Jadmin> db.auth([16G[32m'[39m[32mr[39m[32mo[39m[32mo[39m[32mt[39m[32m'[39m, [32m'[39m[32me[39m[32mx[39m[32ma[39m[32mm[39m[32mp[39m[32ml[39m[32me[39m[32m'[39m)
+{ ok: [33m1[39m }
+[1G[0Jadmin> [8Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         36.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   40.00 KiB
+[1G[0Jadmin> [8Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collece[1G[0Jthe_database> show collec[26Gtions
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.fin([[1G[0Jthe_database> db.todos.fin([28G{][1G[0Jthe_database> db.todos.fin({[29G[[1G[0Jthe_database> db.todos.fin({[29G})
+Uncaught [1m[31mTypeError[0m: db.todos.fin is not a function
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.fin({})[31G[1D[1G[0Jthe_database> db.todos.fin[44m([49m{})[30G[1D[1G[0Jthe_database> db.todos.fin([44m{[49m})[29G[1D[1G[0Jthe_database> db.todos.fin({[44m}[49m)[28G[1D[1G[0Jthe_database> db.todos.fin({}[44m)[49m[27G[1G[0Jthe_database> db.todos.find({}[44m)[49m[28G[4C[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'69569283d4286f6b068de666'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'69569283d4286f6b068de667'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insertOne()[1G[0Jthe_database> db.todos.insertOne([34G{ text; [32m"[39m[1G[0Jthe_database> db.todos.insertOne({ text; [42G[1G[0Jthe_database> db.todos.insertOne({ text;[41G[1G[0Jthe_database> db.todos.insertOne({ text[40G[33mtext[39m: [32m"[39m[32m"[39m[1D[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [44m[32m"[49m"[39m[43GIncrease the number of tools in my tool bel[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [44m[32m"[49mIncrease the number of tools in my tool belt"[39m[87G[1C[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m[88G, d[36mdo[39mdone: fals[33mfalse[39m][1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m[101G})[1D[1G[0Jthe_database> db.todos.insertOne[44m([49m{ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[102G[1D[1G[0Jthe_database> db.todos.insertOne([44m{[49m [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[101G[1G[0Jthe_database> db.todos.insertOne([44m{[49m [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m })[102G[1C[1G[0Jthe_database> db.todos.insertOne[44m([49m{ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m })[103G[1C[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m })[104G[1D[1G[0Jthe_database> db.todos.insertOne[44m([49m{ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m })[103G[1C[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m })[104G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6957abef6028abc29b8de666'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne({ [33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m })[104G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'69569283d4286f6b068de666'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'69569283d4286f6b068de667'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6957abef6028abc29b8de666'[39m),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004l[?2004h]0;antti_tulenheimo@Pelitietokone: ~/fullstackopen/part12-containers-applications/todo-app/todo-backend[01;32mantti_tulenheimo@Pelitietokone[00m:[01;34m~/fullstackopen/part12-containers-applications/todo-app/todo-backend[00m$ exit
+[?2004lexit
+
+Script done on 2026-01-02 13:30:04+02:00 [COMMAND_EXIT_CODE="0"]
